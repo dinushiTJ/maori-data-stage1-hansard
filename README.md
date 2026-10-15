@@ -13,7 +13,7 @@ This repository is part of the University of Waikato Māori Data Findability Pro
 | Stage 1 | [maori-data-stage1-hansard](https://github.com/dinushiTJ/maori-data-stage1-hansard) (this repository) | New Zealand Parliament debates (Hansard) |
 | Stage 2 | [maori-data-stage2-research-commons](https://github.com/dinushiTJ/maori-data-stage2-research-commons) | University of Waikato Research Commons |
 
-Stage 2 applies the same approach and labels to research theses and papers. It also adds baselines, Gemma-3-4B fine-tuning, checks against other LLM providers and full-text evidence extraction.
+Stage 2 applies the same approach to research theses and papers, using the `maori_origin` and `non_maori_origin` labels (no `irrelevant` label). It also adds baselines, Gemma-3-4B fine-tuning, checks against other LLM providers and full-text evidence extraction.
 
 ## Notebooks
 
