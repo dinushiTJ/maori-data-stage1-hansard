@@ -4,6 +4,17 @@ Research code for finding and classifying Māori data in the debates of the New 
 
 The pipeline scrapes Hansard transcripts and splits each one into sections. An LLM labels every section as **Māori-related** (`maori_origin`), **not Māori-related** (`non_maori_origin`) or **irrelevant**. The labelled data is then used to fine-tune and evaluate an embedding-based classifier built on [EmbeddingGemma](https://huggingface.co/google/embeddinggemma-300M).
 
+## Related repositories
+
+This repository is part of the University of Waikato Māori Data Findability Project. The project is split into stages, and each stage has its own repository:
+
+| Stage | Repository | Source |
+|---|---|---|
+| Stage 1 | [maori-data-stage1-hansard](https://github.com/dinushiTJ/maori-data-stage1-hansard) (this repository) | New Zealand Parliament debates (Hansard) |
+| Stage 2 | [maori-data-stage2-research-commons](https://github.com/dinushiTJ/maori-data-stage2-research-commons) | University of Waikato Research Commons |
+
+Stage 2 applies the same approach and labels to research theses and papers. It also adds baselines, Gemma-3-4B fine-tuning, checks against other LLM providers and full-text evidence extraction.
+
 ## Notebooks
 
 The notebooks are in `notebooks/` and are numbered in the order they should be run. They were written for Google Colab.
