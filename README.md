@@ -55,6 +55,16 @@ The datasets are too large to include in this repository. Notebook 03 downloads 
 
 The published datasets are in the [MDF NZ Hansard Datasets](https://huggingface.co/collections/dinushiTJ/mdf-nz-hansard-datasets) collection on the Hugging Face Hub.
 
+## Authors
+
+All authors are at the School of Computing and Mathematical Sciences, University of Waikato, Hamilton, New Zealand.
+
+| Name | Email | ORCID |
+|---|---|---|
+| Dinushi Jayasinghe | [dinushi.jayasinghe@waikato.ac.nz](mailto:dinushi.jayasinghe@waikato.ac.nz) | [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--6042--9137-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0005-6042-9137) |
+| Paul T. Brown | [paul.brown@waikato.ac.nz](mailto:paul.brown@waikato.ac.nz) | [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--7501--3971-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0001-7501-3971) |
+| Nick Lim | [nick.lim@waikato.ac.nz](mailto:nick.lim@waikato.ac.nz) | [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--4690--5780-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0003-4690-5780) |
+
 ## Acknowledgements
 
 The debate transcripts come from [Hansard](https://hansard.parliament.nz/), the official record of the New Zealand Parliament, published by the Office of the Clerk / Parliamentary Service. All rights in the Hansard content stay with the New Zealand Parliament. See the [parliament.nz copyright terms](https://www.parliament.nz/en/footer/copyright/) for how the content may be reused.
