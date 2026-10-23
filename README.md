@@ -1,5 +1,14 @@
 # Māori Data Identification in NZ Hansard (Stage 1)
 
+[![Hugging Face datasets](https://img.shields.io/badge/Hugging%20Face-Datasets-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/dinushiTJ/mdf-nz-hansard-datasets)
+[![Stage 2 repository](https://img.shields.io/badge/GitHub-Stage%202-181717?logo=github&logoColor=white)](https://github.com/dinushiTJ/maori-data-stage2-research-commons)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebooks-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-8E75B2?logo=googlegemini&logoColor=white)
+[![EmbeddingGemma](https://img.shields.io/badge/Model-EmbeddingGemma-4285F4?logo=google&logoColor=white)](https://huggingface.co/google/embeddinggemma-300M)
+![Source: Hansard](https://img.shields.io/badge/Source-NZ%20Hansard-00247D)
+
 Research code for finding and classifying Māori data in the debates of the New Zealand Parliament, published as Hansard.
 
 The pipeline scrapes Hansard transcripts and splits each one into sections. An LLM labels every section as **Māori-related** (`maori_origin`), **not Māori-related** (`non_maori_origin`) or **irrelevant**. The labelled data is then used to fine-tune and evaluate an embedding-based classifier built on [EmbeddingGemma](https://huggingface.co/google/embeddinggemma-300M).
@@ -43,6 +52,8 @@ The Gemini steps also need a Google Cloud project with Vertex AI enabled.
 ## Data
 
 The datasets are too large to include in this repository. Notebook 03 downloads the raw transcripts again, and each later notebook reads the output of the step before it.
+
+The published datasets are in the [MDF NZ Hansard Datasets](https://huggingface.co/collections/dinushiTJ/mdf-nz-hansard-datasets) collection on the Hugging Face Hub.
 
 ## Acknowledgements
 
